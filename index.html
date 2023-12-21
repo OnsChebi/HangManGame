@@ -8,40 +8,30 @@
   </head>
   <body>
     <div class="game-result">
-        <div class="content">
-         <img src="images/lost.gif" alt="gif"> 
-         <h4>Game Over!</h4>
-         <p>The correct word was: <b>rain
-            <button class="play-again">Play Again</button>
-         </b></p>  
-        </div>
+      <div class="content">
+        <img src="#" alt="gif" />
+        <h4>Game Over!</h4>
+        <p>The correct word was: </p>
+        <button class="play-again">Play Again</button>
+      </div>
     </div>
     <div class="container">
       <div class="hangman-box">
-        <img src="images/hangman-10.PNG" alt="hangman images" />
+        <img src="images/hangman-0.PNG" alt="hangman images" />
         <h1>hangman Game</h1>
       </div>
       <div class="game-box">
-        <ul class="word-display">
-          <li class="letter"></li>
-          <li class="letter"></li>
-          <li class="letter guessed"> A</li>
-          <li class="letter"></li>
-          <li class="letter"></li>
-          <li class="letter"></li>
-        </ul>
+        <ul class="word-display"></ul>
         <h4 class="hint-text">
           Hint:
-          <b
-            >Lorem ipsum dolor sit amet consectetur adipisicing elit. </b
-          >
+          <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. </b>
         </h4>
         <h4 class="guesses-text">
           Incorrect guesses:
           <b>0/10</b>
         </h4>
         <div class="keyboard">
-          <div class="base">
+          <!-- <div class="base">
             <div class="line1">
               <button>Q</button>
               <button>W</button>
@@ -74,9 +64,12 @@
               <button>N</button>
               <button>M</button>
             </div>
-          </div>
+          </div>-->
         </div>
       </div>
     </div>
   </body>
+  <script src="script.js" defer></script>
+  <!--to instruct the browser to continue to parse the HTML page while a script is being downloaded-->
+  <script src="words.js"></script>
 </html>
